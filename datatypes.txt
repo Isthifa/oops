@@ -1,0 +1,133 @@
+----data typess--
+8 primitive data types;
+numeric values
+byte --1 byte
+short -- 2byte
+int -4 byte
+long --8 byte
+==
+point values
+float and double 4 and 8 bytes
+==
+single characters----
+char- 2 
+--boolean true and false
+
+-- int a=10
+int -data type
+a  --variable name
+= asignment operator
+10 = constant value or literal value
+; statement terminator
+
+
+-----------exception handling---------
+--------Exception and error-----------
+
+Exception 
+1.runtime exception                    2.IOException             3.Remote exception       4. interputed exeception
+.Arthematic exception
+.null pointer exception
+.class cast exception
+.index outof bound exception
+.illegal argument exception
+.number format excetion
+
+throws keyword - checked exception
+
+exception that checked at compile time is known as checked exception
+exception that not checked at compile time unchecked exception---
+
+List of common checked exceptions in Java
+
+
+Exception class
+
+                                                                       Description
+
+IOException                                                      This exception is raised when an input/output operation fails
+
+
+SQLException
+
+                                                                 This exception is raised when a database operation fails
+
+ClassNotFoundException
+
+                                                                 This exception is raised when a class cannot be found.
+
+InstantiationException
+
+                                                                 This exception is raised when an object cannot be instantiated.
+
+NoSuchMethodException                                           This exception is raised when a method cannot be found.
+
+
+
+
+Unchecked exceptions
+The RuntimeException class is the superclass of all unchecked exceptions. The table below represents some of the commonly used unchecked exception classes in Java with their description.
+
+List of common unchecked exceptions in Java
+Exception classes
+
+                                                                                   Description
+
+RuntimeException
+
+                                                                              This is the superclass of all unchecked exceptions.
+
+
+NullPointerException: 
+
+                                                                              This exception is raised when a null value is used where an object is required.
+
+
+ArithmeticException
+                                                                              This exception is raised when an arithmetic operation fails.
+
+
+ArrayIndexOutOfBoundsException
+
+                                                                              This exception is raised when an array index is out of bounds.
+
+
+IllegalArgumentException
+ConcurrentModificationException                                               This exception is raised when a collection is modified while it is being iterated over.
+
+The Error class represents the serious problems that cause the program to abort. They include out of memory error, stack overflow error, and so on. Now, let's see different types of errors in Java.
+
+
+
+Error classes 
+
+                                                                                Description
+
+OutOfMemoryError
+
+                                                                 This error is raised when the JVM runs out of memory.
+
+StackOverflowError
+
+                                                                 This error is raised when a stack overflow occurs.
+
+VirtualMachineError
+
+                                                                 This is the superclass of all errors that occur in the JVM.
+
+AssertionError
+
+                                                                  This error is raised when an assertion fails.
+
+NoClassDefFoundError
+
+                                                                  This error is raised when a class cannot be found.
+
+LinkageError
+
+                                                                  This error is raised when a linkage problem occurs. 
+
+ExceptionInInitializerError: 
+
+                                                                 This error is raised when an exception occurs in the static 
+

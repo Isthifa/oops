@@ -1,0 +1,57 @@
+[present inside java.util.pkg]
+[collection framework]
+------
+collections is class--
+[collections.sort]
+[collections.suffle]
+collection is an interface-------
+
+collection[I]
+child interface under collection 
+List [I]                                        set[I]                                 queue[I]
+child interface of collection             Insertion order is not preserved         
+Insertion order is presevered             Duplicates are not allowed                   FIFO
+duplicates are allowed
+ArrayList[C]                              HashSet[C]                                priorityQueue[C]
+LinkedList[C]                             LinkedHashSet[C]
+
+
+MAP[I]
+stores in the form of key and value pairs
+
+
+
+
+
+ArrayList al=new ArrayList();
+[here we can store any type of data]
+to store particular data we can use Arraylist<String> al;
+methods
+[add(object)
+ add(index,object)
+ size()
+ remove()
+ get()
+ set()
+ contains()
+ isEmpty() 
+ addAll  ]
+
+
+LinkedList - collection
+duplicates are allowed, insertion order is preserved 
+[if we have more number of retrival linkedlist is not recommanded] arraylist is preffered
+insertion and deletion - linked is preffered
+null values are allowed
+we can addLast addFirst removeLast removefirst
+
+
+--------set---
+hashset
+-duplicates are not allowed
+-insertion order is not preserved
+-hashcode
+-different types data elements stored
+-null supported
+[searching will be faster in set]
+
